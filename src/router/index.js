@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Header from '../views/Header.vue'
+import Countries from '../views/Countries.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Header',
-    component: Header
+    name: 'Countries',
+    component: Countries
   },
   
 ]
